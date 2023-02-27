@@ -1,2 +1,5 @@
 # rotate_xls_table
-简单的python脚本，将excel工作表由横向变为纵向，目前并没有格式设置。导出新的xls文件后自行调整文字方向和格式。
+
+A simple python script that rotates all the worksheets in an excel workbook.
+Merged cells are allowed.
+Formatting is not preserved at the moment.
