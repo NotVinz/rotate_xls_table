@@ -57,6 +57,7 @@ def rotateworkbook(filename):
                                        style=style)
 
     out_Workbook.save("rot_" + filename)
+    print("Rotated file saved to rot_" + filename)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
