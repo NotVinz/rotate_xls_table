@@ -64,7 +64,7 @@ if __name__ == "__main__":
         print("Something is wrong")
         print("Please run as Rotate_Excel.py <Filename.xls>")
         exit()
-    # rotate('caca.xls')  # input file name
+        
     filename = sys.argv[1]
 
     rotateworkbook(filename)
